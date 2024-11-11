@@ -101,3 +101,26 @@ while (j<=10) {
     j++;
 }
 
+//  LOGICAL OPERATOR 
+
+// 1. -> lOGICAL AND (&&)
+//  true if both the operands/boolean values are true, else give to false.
+
+// 2 . logical OR (||)
+// True if the either of the logical operands/boolean is true.valueOf
+
+// 3.Logical NOT(!)
+
+//  It gives false if operands /boolean is true
+//  and gives true if operands/boolean is false 
+
+
+let passwordTwo ="fullstack-javascript";
+
+if(passwordTwo.length>=8 &&passwordTwo.includes("java")){
+    console.log("good to sea you buddy");
+}
+
+else{
+    console.log("Go from here and learn JAVASCRIPT COurse😛😛");
+}
