@@ -30,3 +30,58 @@ else{
     console.log("balle balle😎😎😍 ");
     
 }
+
+
+// 3rd This is short exercise
+
+let password = "rohansingh";
+let pass_Length =password.length;
+
+if(pass_Length==8){
+    console.log("Password is too short");
+    
+}
+else if(pass_Length>=8){
+    console.log("Password is long and good  ");
+    
+}
+else{
+    console.log(" Pleas eprovide ");
+    
+}
+
+//  switch statements  
+//  it controls the flow of our program 
+
+// switch(expression){
+//   case x:
+//   print ;
+//   break;
+//   case y:
+//   print;
+//   break; 
+   
+// }
+
+let x =0;
+let text;
+
+switch (x) {
+    case 0:
+        text ="off";
+        console.log(text);
+        break;
+    case 1:
+         text ="on";
+         console.log(text);
+         
+         break;
+
+    default:
+        text ="no value are you robot 😎😣";
+        console.log(text);
+        
+        break;
+}
+
+
