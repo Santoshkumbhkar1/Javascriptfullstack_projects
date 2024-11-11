@@ -98,6 +98,7 @@ console.log((typeof(money)));
 money =parseInt(money);
 console.log((money));
 console.log((typeof(money)));
+console.log(typeof(typeof(money)));
 
 
 
