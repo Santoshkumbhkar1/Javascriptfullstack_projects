@@ -84,4 +84,20 @@ switch (x) {
         break;
 }
 
+// For loop in javascript 
+
+// pringting numbers from to 100 using for loop
+
+for (let i = 0; i <= 100; i++) {
+    // const element = array[i];
+    console.log(i);
+}
+
+// while loop 
+
+let j=1;
+while (j<=10) {
+   console.log("mrcomeback" , j);
+    j++;
+}
 
