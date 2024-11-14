@@ -22,7 +22,7 @@ if (time<5){
     greetings ="Good morning😂😂😁😁";
 }
 
-else if (time<20){
+else if (time>5){
     greetings ="Good morning😂😂😁😁";
 }
 
@@ -124,3 +124,58 @@ if(passwordTwo.length>=8 &&passwordTwo.includes("java")){
 else{
     console.log("Go from here and learn JAVASCRIPT COurse😛😛");
 }
+
+
+//  data structure 
+
+const num  =['eat' , 'go' ,'sleep', 'birth'];
+
+// Accessing items from our array 
+
+for(let n =0; n<num.length;n++){
+    console.log(num[n]);
+}
+
+// Nested array or Two D array
+
+const nesArray =['one' ,['two' ,'Three'] ,'four' ,'Five' ,'Six'];
+
+console.log("i am from nested   Array ",nesArray[1][0]);
+
+
+
+
+//  some methods used  on array 
+const fruits =["jam " ,"apple" , "banana" , "Mango"];
+
+console.log(fruits);
+
+// shift method will delete first element of an array
+
+fruits.shift();
+console.log(fruits);
+
+// pop method will delete last element from an array
+
+fruits.pop();
+console.log(fruits);
+
+// unshift method add an item to the beginning of the aaray
+
+// fruits.unshift("from unshift method");
+// console.log(fruits);
+
+const pl = ["python " ,"Golang ", "java"  , "php" ];
+const numb_ =[3, 5, 6, 7, 8];
+
+console.log(pl.includes("java"));
+console.log(pl.join("😎"));
+console.log((pl.reverse()));
+console.log((pl.slice(0,2)));
+
+
+
+
+
+
+
